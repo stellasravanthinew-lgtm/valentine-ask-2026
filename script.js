@@ -23,9 +23,11 @@ envelope.addEventListener("click", () => {
 
 // Logic to move the NO btn and change text
 const texts = [
-    "Really sure? Think again?",
+    "Really sure?",
+    "Think again?",
     "You might regret this",
     "This could be a mistake",
+    "Okay… final warning",
     "Absolutely last chance 😭"
   ];
   
