@@ -156,3 +156,30 @@ p {
     background-color: rgba(255,240,240,0.5);
     border-radius: 12px;
 }
+@media (max-width: 768px) {
+  .cat {
+    width: 180px;
+    height: auto;        /* keep aspect ratio */
+    margin: 6px 0;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .letter-window {
+    padding-top: 140px; /* reduces vertical push */
+  }
+}
+@media (max-width: 480px) {
+  .cat {
+    width: 150px;
+  }
+}
+@media (max-width: 768px) {
+  .letter-window {
+    aspect-ratio: auto;
+  }
+}
+
+
